@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="memrgame.css">
+    
+</head>
+
+<body>
+    <h1>Memory Game
+        Created by BJS
+    </h1>
+   <form>
+       <input type ="button" id="start" value="Start Game">
+    <button id="restart">Start Over</button>
+   </form>
+    <section class="container"  >
+        <div class="memCard"data-img="koh" >
+            <img class="front" 
+                src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+            <img class="back" src="https://i.pinimg.com/originals/99/30/86/9930867145e433c8fe41267e526429c4.png">
+        </div>
+        <div class="memCard" data-img="7ofh">
+            <img class="front"
+                src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+            <img class="back"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Atlas_deck_7_of_hearts.svg/1200px-Atlas_deck_7_of_hearts.svg.png">
+        </div>
+        <div class="memCard" data-img="qod">
+            <img class="front"
+                src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+            <img class="back"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/English_pattern_queen_of_diamonds.svg/1200px-English_pattern_queen_of_diamonds.svg.png">
+        </div>
+        <div class="memCard" data-img="5ofd">
+            <img class="front"
+                src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+            <img class="back"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/5_of_diamonds.svg/1200px-5_of_diamonds.svg.png">
+        </div>
+        <div class="memCard" data-img="jofc">
+            <img class="front"
+                src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+            <img class="back"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Jack_of_clubs.svg/706px-Jack_of_clubs.svg.png">
+        </div>
+        <div class="memCard" data-img="kos">
+            <img class="front"
+                src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+            <img class="back"
+                src="https://previews.123rf.com/images/rbwinston/rbwinston1203/rbwinston120300001/12586605-king-of-spades-individual-playing-card-an-isolated-vector-illustration-of-a-classic-face-card.jpg">
+        </div>
+        <div class="memCard" data-img="5ofd">
+            <img class="front"
+                src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+            <img class="back"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/5_of_diamonds.svg/1200px-5_of_diamonds.svg.png">
+        </div>
+            <div class="memCard" data-img="aofc">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ace_of_clubs.svg/1200px-Ace_of_clubs.svg.png">
+            </div>
+            <div class="memCard" data-img="koh">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back" src="https://i.pinimg.com/originals/99/30/86/9930867145e433c8fe41267e526429c4.png">
+            </div>
+            <div class="memCard" data-img="2ofs">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Playing_card_spade_2.svg/1200px-Playing_card_spade_2.svg.png">
+            </div>
+            <div class="memCard" data-img="kos">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://previews.123rf.com/images/rbwinston/rbwinston1203/rbwinston120300001/12586605-king-of-spades-individual-playing-card-an-isolated-vector-illustration-of-a-classic-face-card.jpg">
+            </div>
+            <div class="memCard" data-img="9ofc">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Playing_card_club_9.svg/819px-Playing_card_club_9.svg.png">
+            </div>
+            <div class="memCard" data-img="3ofd">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Playing_card_diamond_3.svg/1200px-Playing_card_diamond_3.svg.png">
+            </div>
+            <div class="memCard" data-img="jofc">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Jack_of_clubs.svg/706px-Jack_of_clubs.svg.png">
+            </div>
+            <div class="memCard" data-img="aofc">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ace_of_clubs.svg/1200px-Ace_of_clubs.svg.png">
+            </div>
+            <div class="memCard" data-img="3ofd">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Playing_card_diamond_3.svg/1200px-Playing_card_diamond_3.svg.png">
+            </div>
+            <div class="memCard" data-img="qod">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/English_pattern_queen_of_diamonds.svg/1200px-English_pattern_queen_of_diamonds.svg.png">
+            </div>
+            <div class="memCard" data-img="9ofc">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Playing_card_club_9.svg/819px-Playing_card_club_9.svg.png">
+            </div>
+            <div class="memCard" data-img="2ofs">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Playing_card_spade_2.svg/1200px-Playing_card_spade_2.svg.png">
+            </div>
+            <div class="memCard" data-img="7ofh">
+                <img class="front"
+                    src="https://st2.depositphotos.com/3867453/5508/v/600/depositphotos_55080499-stock-illustration-letter-a-logo-icon-design.jpg">
+                <img class="back"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Atlas_deck_7_of_hearts.svg/1200px-Atlas_deck_7_of_hearts.svg.png">
+            </div>
+    </section>
+
+
+
+
+
+
+    <script src="memgame.js"></script>
+</body>
+
+</html>
